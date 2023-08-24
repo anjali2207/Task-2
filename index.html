@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://kit.fontawesome.com/2da8573368.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/> -->
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio..</span></a></div>
+            <ul class="menu">
+                <li>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#skill">Skills</a>
+                    <a href="#project">Project</a>
+                    <a href="#context">Contact</a>
+                </li>
+            </ul>
+            <div class="menubtn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="max-width">
+            <div class="text">
+                <div class="text1">Hello.., My name is</div><br>
+                <div class="text2">Anjali Prajapati</div><br>
+                <div class="text3">
+                    I'm a Web Developer</div>
+            </div>
+            <!-- <div class="buttons">
+                <button class="btn">
+                    <a href="#">Read More</a>
+                </button>
+                <button class="btn">
+                    <a href="#">Hire Me</a>
+                </button>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="abour" id="about">
+        <div class="head">
+            <img src="pic/main anjali.jpg" alt="pic">
+            <!-- <div class="cl"></div> -->
+        </div>
+        <div class="container">
+
+            <h1>About Me</h1>
+            <p>Hello, I'm Anjali, a passionate web developer with 2 years of experience in creating dynamic and
+                user-friendly websites. I thrive on turning ideas into functional and visually appealing online
+                experiences. My expertise lies in front-end development, where I specialize in HTML, CSS, and
+                JavaScript, ensuring seamless navigation and responsive designs across different devices.</p>
+            <br>
+            <p>Throughout my career, I have collaborated with diverse teams, including designers and backend developers,
+                to create harmonious and integrated solutions. I have a keen eye for detail and a knack for
+                problem-solving, allowing me to troubleshoot issues and optimize website performance.</p>
+            <button class="cv btn"><a href="Anjali.pdf" style="width: 100%; height: 100%; position: relative;font-size: 12px;">Download CV</a></button>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h1>My Services</h1>
+        <div class="dabbo">
+            <div class="maindabbo dabbo1">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Developer</h2>
+                <p>It involves designing, building, and maintaining websites using various technologies and programming
+                    languages.</p>
+            </div>
+            <div class="maindabbo dabbo2">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h2>Logo Degine</h2>
+                <p>the process of creating a unique and visually appealing symbol or mark that represents a brand,
+                    company, organization, or individual</p>
+            </div>
+            <div class="maindabbo dabbo3">
+                <i class="fa-brands fa-android"></i>
+                <h2>App Developer</h2>
+                <p> Refers to the process of creating software applications for mobile devices such as smartphones,
+                    tablets, or wearable devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <h1>My skills</h1>
+        <div class="lliks">
+            <div class="sk1">
+                <h2>My Career activity</h2>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('exprience')">Birth</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Logo Degine</span><br>Designing a Logo any company</li>
+                        <li><span>Web Devlpment</span><br>Web App Devlpment</li>
+                        <li><span>App Devlpment</span><br>Building Android/ios app</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-link" id="exprience">
+                    <ul>
+                        <li><span>Date Birth of:</span><br>22-July-2003</li>
+                        <li><span>Place Birth of</span><br>Mehsana, Gujarat</li>
+                        <li><span>Religion & Caste</span><br>Hindu Gurjar Kumbhar</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>STD 1st to 10th in</span><br>Akshar vidhya mandir, Mehsana</li>
+                        <li><span>STD 11th & 12th in</span><br>Exotica junior science college, Mehsana</li>
+                        <li><span>bachelor of engineering in</span><br>Gujrat Power Engineering & Research Institute
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span class="info2">HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span class="info2">CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span class="info2">Java script</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line javascript"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span class="info2">PHP</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span class="info2">My SQL</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ------projrct----- -->
+    <section id="project">
+        <h1 class="projectHead">My Project</h1>
+        <div class="mainProject">
+            <div class="counter">
+                <a href="https://music2207.netlify.app" target="_blank">
+                    <img src="pic/1.png" alt="">
+                    <div class="overlay">
+                        <div class="content">
+                            <h1>Music Player</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="counter">
+                <a href="https://quote2207.netlify.app">
+                    <img src="pic/2.png" alt="">
+                    <div class="overlay">
+                        <div class="content">
+                            <h1>Quote Generator</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="counter">
+                <a href="https://note2207.netlify.app">
+                    <img src="pic/3.png" alt="">
+                    <div class="overlay">
+                        <div class="content">
+                            <h1>Notes App</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="counter">
+                <a href="https://age2207.netlify.app">
+                    <img src="pic/4.png" alt="">
+                    <div class="overlay">
+                        <div class="content">
+                            <h1>Age Calculator</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="counter">
+                <a href="https://clock2207.netlify.app">
+                    <img src="pic/5.png" alt="">
+                    <div class="overlay">
+                        <div class="content">
+                            <h1>Digital Clock</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="counter more">
+                <a href="#">
+                    <img src="pic/project.jpg" alt="">
+                    <div class="overlay more">
+                        <div class="content">
+                            <h1>See More</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="context" id="context">
+        <div class="maincon">
+            <div class="main1">
+                <h1>Contact Me</h1>
+                <p class="conme">If you want to contact Me, you can use the social media provided here, And if you have
+                    any other doubts, you can fill the feedback form provided below.</p>
+                <div class="mail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>anjaliaprajapati2228@gmail.com</p>
+                </div>
+                <div class="wp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>+91 90995 32131</p>
+                </div>
+                <div class="social">
+                    <i class="fa-brands fa-instagram"><a
+                            href="https://instagram.com/__.anjali.prajapati.__?igshid=ZDdkNTZiNTM="></a></i>
+                    <i class="fa-brands fa-linkedin"><a
+                            href="https://www.linkedin.com/in/anjali-prajapati-b6a783271"></a></i>
+                    <i class="fa-brands fa-github"><a href="https://github.com/anjali2207"></a></i>
+                </div>
+            </div>
+            <div class="main2">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Enter your E-mail id" required>
+                    <br>
+                    <input type="number" name="number" id="number" placeholder="Enter Your Mobile No" required><br>
+                    <textarea name="feedback" id="feedback" placeholder="Enter Feedback " required></textarea><br>
+                    <button type="submit" class="submit">submit</button>
+                    <span id="msg"></span>
+                </form>
+            </div>
+
+
+            <!-- <header>
+                <h4>This Web site created by<i class="fa-solid fa-heart fa-beat"></i><span>Anjali Prajapati</span></h4>
+            </header> -->
+    </section>
+
+    <header>
+        <h4>This Web site created by <i class="fa-solid fa-heart fa-beat"></i><span> Anjali Prajapati</span></h4>
+    </header>
+
+    <script src="script.js"></script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzV-7jIFFDZlJJ85IPAorEldWXl8326gIPRVipqLpYB1lux_MlwCdbqM7WTzZ5iuJZ1/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) }, 100)
+                .then(response => {
+                    msg.innerHTML = 'Message sent successfully'
+                    setTimeout(function () {
+                        msg.innerHTML = ''
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
